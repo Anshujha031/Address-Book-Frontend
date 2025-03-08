@@ -1,0 +1,12 @@
+
+<div class="page-container">
+  <!-- HEADER (Logo + Title + Add Person Button) -->
+  <header class="header">
+    <div class="logo">
+      <span class="logo-icon">📘</span>
+      <span class="logo-text">Address Book</span>
+    </div>
+
+    <button class="add-btn" *ngIf="showAddButton()"  routerLink="/add-person">Add Person</button>
+  </header>
+<router-outlet></router-outlet> 
